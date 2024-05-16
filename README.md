@@ -12,6 +12,9 @@ docker compose up --build -d
 
 - [x] Scrape quotes from Goodreads. Wrapped up in an API.
 - [x] Store the scraped contents along with their metadata in a postgres database.
+- [x] Database populate call handling via a background task.
+- [x] Database volume kept persistent 
+- [x] The UI for the database (pgadmin) volume also kept persistent
 - [x] API for retrieving most liked quotes. Allows for the following features:
   - [x] Filter by tags
   - [x] Filter by author 
