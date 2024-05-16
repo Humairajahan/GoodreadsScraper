@@ -1,13 +1,5 @@
 # GoodReadsScraper
 
-### Run
-
-Make sure you have docker installed in your system.
-
-```python
-docker compose up --build -d
-```
-
 ### Features
 
 - [x] Scrape quotes from Goodreads. Wrapped up in an API.
@@ -27,3 +19,12 @@ docker compose up --build -d
 
 - [ ] Currently only allows for filtering by single tag. Can be extended to filtering by multiple tags.
 - [ ] Currently not following best practice and maintain an env file to store sensitive information.
+
+
+### Run
+
+Make sure you have docker installed in your system.
+
+```python
+docker compose up --build -d
+```
